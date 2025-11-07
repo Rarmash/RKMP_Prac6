@@ -10,7 +10,11 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  geolocator: ^14.0.2
+  bloc_wrapped_values:
+    git:
+      url: https://github.com/qk7b/bloc_wrapped_values.git
+      ref: main
+      path: .
 
 dev_dependencies:
   flutter_test:
