@@ -10,11 +10,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  bloc_wrapped_values:
-    git:
-      url: https://github.com/qk7b/bloc_wrapped_values.git
-      ref: main
-      path: .
+  app_flutter_utils:
+    path: packages/app_flutter_utils
 
 dev_dependencies:
   flutter_test:
