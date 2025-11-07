@@ -2,9 +2,11 @@ import '../models/product.dart';
 
 class DataService {
   final List<Product> _products = [
-    Product(id: 1, name: 'Подкрылок передний', quantity: 10),
-    Product(id: 2, name: 'Подкрылок задний', quantity: 7),
-    Product(id: 3, name: 'Подкрылок универсальный', quantity: 5),
+    Product(id: 1, name: 'Подкрылок передний левый (LADA Vesta)', quantity: 10),
+    Product(id: 2, name: 'Подкрылок передний правый (LADA Granta)', quantity: 8),
+    Product(id: 3, name: 'Подкрылок задний левый (KIA Rio)', quantity: 6),
+    Product(id: 4, name: 'Подкрылок задний правый (Hyundai Solaris)', quantity: 5),
+    Product(id: 5, name: 'Подкрылок универсальный пластиковый', quantity: 12),
   ];
 
   final List<Map<String, dynamic>> _history = [];

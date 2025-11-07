@@ -10,8 +10,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
-  app_flutter_utils:
-    path: packages/app_flutter_utils
+  cached_network_image: ^3.4.1
 
 dev_dependencies:
   flutter_test:
